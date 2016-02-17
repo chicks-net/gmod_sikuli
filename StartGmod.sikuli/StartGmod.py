@@ -4,19 +4,19 @@ import time
 
 # switch to Steam
 switchApp("Steam")
-click("1455586267055.png")
+click("library.png")
 # click("recent.png")
-click("1455586675687.png")
-click("1455586694710.png")
+click("garrys_mod.png")
+click("steam_play.png")
 
 # wait
 time.sleep(10)
 
 switchApp("Garry's Mod")
-wait("1455586899748.png",20)
-click("1455586899748.png")
-click("1455586932620.png")
-click("1455586944860.png")
+wait("start_new_game.png",20)
+click("start_new_game.png")
+click("gm_construct.png")
+click("start_game.png")
 
 
 
