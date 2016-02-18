@@ -84,7 +84,6 @@ switchApp(<span class="str">"Steam"</span>)
 <span class="cmt"># wait</span>
 time.<span class="skw">sleep</span>(<span class="dig">15</span>)
 
-<span class="cmt">#switchApp("Garry's Mod")</span>
 <span class="skw">wait</span>(<img src="start_new_game.png" />,<span class="dig">20</span>)
 time.<span class="skw">sleep</span>(<span class="dig">2</span>)
 <span class="skw">click</span>(<img src="start_new_game.png" />)
@@ -99,10 +98,6 @@ time.<span class="skw">sleep</span>(<span class="dig">2</span>)
 
 <span class="cmt"># wait for level to load</span>
 <span class="skw">wait</span>(Pattern(<img src="construct_tower.png" />).similar(<span class="dig">0.61</span>),<span class="dig">15</span>)
-
-<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">20</span>):
-    <span class="skw">type</span>(<span class="str">"q"</span>)
-    time.<span class="skw">sleep</span>(<span class="dig">0.2</span>)
 </pre>
 </body>
 </html>
