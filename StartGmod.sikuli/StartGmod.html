@@ -84,8 +84,10 @@ switchApp(<span class="str">"Steam"</span>)
 <span class="cmt"># wait</span>
 time.<span class="skw">sleep</span>(<span class="dig">15</span>)
 
+
 <span class="skw">wait</span>(<img src="start_new_game.png" />,<span class="dig">20</span>)
-time.<span class="skw">sleep</span>(<span class="dig">2</span>)
+<span class="skw">wait</span>(Pattern(<img src="g_garrys_mod_mainmenu.png" />).similar(<span class="dig">0.76</span>),<span class="dig">5</span>)
+time.<span class="skw">sleep</span>(<span class="dig">1</span>)
 <span class="skw">click</span>(<img src="start_new_game.png" />)
 
 <span class="kw">try</span>:

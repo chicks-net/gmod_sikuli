@@ -12,8 +12,10 @@ click("steam_play.png")
 # wait
 time.sleep(15)
 
+
 wait("start_new_game.png",20)
-time.sleep(2)
+wait(Pattern("g_garrys_mod_mainmenu.png").similar(0.76),5)
+time.sleep(1)
 click("start_new_game.png")
 
 try:
